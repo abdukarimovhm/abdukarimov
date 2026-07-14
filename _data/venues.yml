@@ -1,9 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Map publication venue abbreviations to a URL/color for nicer rendering.
+# Add entries as you add publications, e.g.:
+# "NeurIPS":
+#   url: https://neurips.cc/
+#   color: "#00369f"
