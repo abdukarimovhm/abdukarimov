@@ -1,189 +1,101 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Humoyunbek Abdukarimov
+  label: Data Scientist
+  email: abdukarimovhm@gmail.com
+  location: Incheon, South Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Data Scientist focused on applied machine learning, behavioral biometrics, fraud detection,
+    and time-series & blockchain analytics. Experience leading a data-science team, shipping
+    client projects end to end, and organizing initiatives such as a 50-participant hackathon.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: abdukarimovhm
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: humoyun-abdukarimov-a1835827b
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: HumbleBeeAI
+        position: Data Scientist
+        location: Incheon, South Korea
+        start_date: 2026-01
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Develop machine-learning and analytical systems using behavioral, transactional, financial, and time-series data.
+          - Built behavioral bot-detection pipelines using keystroke dynamics, mouse movements, interaction timing, session behavior, and rule-based heuristics.
+          - Developed methods for detecting scripted and replayed sessions produced by macro-recording tools.
+          - Conducted a research-reproduction project on top mooring-tension forecasting — reimplementing published methodology and evaluating performance on offshore sensor and environmental data.
+          - Implemented an investor churn-prediction system with time-based feature pipelines, churn labels, walk-forward validation, top-K risk rankings, money-at-risk estimates, and model explanations.
+          - Work primarily with Python, SQL, pandas, scikit-learn, LightGBM, BigQuery, and PostgreSQL.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: HumbleBeeAI
+        position: Head of Data Science
+        location: Incheon, South Korea
+        start_date: 2025-07
+        end_date: 2026-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - Founded and led the Data Science department, managing a team of seven data scientists, analysts, and interns.
+          - Oversaw technical execution across multiple client projects — task assignment, code reviews, experiment planning, and delivery quality.
+          - Collaborated with the CEO, CTO, engineers, and client stakeholders to translate business requirements into technical solutions.
+          - Supported client acquisition, project continuation, and technical scoping for major engagements; led recruitment interviews and onboarding.
+          - Organized a university-focused hackathon with approximately 50 participants.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: HumbleBeeAI
+        position: Data Analyst
+        location: Incheon, South Korea
+        start_date: 2024-09
+        end_date: 2025-06
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Analyzed large-scale datasets using Python, SQL, BigQuery, and pandas.
+          - Built scheduled queries and data-monitoring workflows connected to reporting dashboards.
+          - Engineered wallet-level and transaction-level features from Cronos and Ethereum blockchain data.
+          - Developed rule-based and statistical methods to identify automated wallets, suspicious transactions, and abnormal behavioral patterns.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Education:
+      - institution: Inha University
+        location: Incheon, South Korea
+        url: https://www.inha.ac.kr/
+        area: Integrated System Engineering
+        studyType: Bachelor (Honours)
+        highlights:
+          - Recipient of the Global Scholarship 2 (SGCS), 2025-1.
+          - Led multiple university course projects, managing technical direction, collaboration, and delivery.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: chrt.app — AI-assisted BI
+        summary: >
+          AI-assisted business-intelligence app that lets technical and non-technical users explore
+          data via natural-language prompts and run automated end-to-end ML workflows (target
+          selection, preprocessing, PCA, model selection, evaluation, and explainability) across
+          classification, regression, and clustering.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Demo: https://www.youtube.com/watch?v=AOY24_Z2qz4"
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Programming & Data
+        icon: fa-solid fa-code
+        keywords: "Python, SQL, pandas, PostgreSQL, BigQuery"
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "scikit-learn, LightGBM, gradient boosting, time-series forecasting, graph clustering"
+      - name: Cloud & Visualization
+        icon: fa-solid fa-chart-line
+        keywords: "Google Cloud Platform, Plotly Dash, data visualization"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Certificates:
+      - name: DevNet Associate
+        date: 2025-06
+        issuer: Cisco
+        icon: fa-solid fa-certificate
+      - name: IBM Data Science Specialization
+        date: 2024-05
+        issuer: IBM
+        icon: fa-solid fa-certificate
+
+    Languages:
+      - name: English
+        summary: "Professional working proficiency"
+      - name: Uzbek
+        summary: "Native speaker"
