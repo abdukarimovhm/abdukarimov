@@ -93,3 +93,58 @@ a,
 table.table a {
   text-underline-offset: 0.15em;
 }
+
+/* ---- Social contact icons: modern button treatment ----
+   The gem renders 4rem bare glyphs in a row; restyle as refined
+   rounded-square buttons with muted glyphs and an emerald hover. */
+.social .contact-icons {
+  font-size: 0; /* reset inherited 4rem sizing */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.social .contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid var(--global-divider-color);
+  background: transparent;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.social .contact-icons a i {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.social .contact-icons a i::before {
+  color: var(--global-text-color-light);
+  transition: color 0.18s ease;
+}
+
+.social .contact-icons a:hover {
+  transform: translateY(-2px);
+  border-color: var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.15);
+  text-decoration: none;
+}
+
+.social .contact-icons a:hover i::before {
+  color: var(--global-theme-color);
+}
+
+/* Swap the boxy square-rss glyph for a cleaner rss mark. */
+.social .contact-icons a[title="Rss icon"] i::before {
+  content: "\f09e";
+}
