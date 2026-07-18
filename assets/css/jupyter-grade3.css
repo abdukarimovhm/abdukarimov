@@ -207,6 +207,13 @@ body > #header .header-bar {
   transition: 200ms ease;
 }
 
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 0px 0px;
+  overflow: hidden;
+  background-color: rgba(180, 180, 180, 0.3);
+}
+
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -435,6 +442,7 @@ h6,
 pre,
 code,
 form,
+legend,
 input,
 button,
 textarea,

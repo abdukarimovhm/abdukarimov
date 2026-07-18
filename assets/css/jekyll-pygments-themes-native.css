@@ -49,10 +49,17 @@
 } /* Generic.Inserted */
 .highlight .go {
   color: #cccccc;
-} /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */
+} /* Generic.Output */
+.highlight .gp {
+  color: #aaaaaa;
+} /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */
 .highlight .gt {
   color: #d22323;
-} /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */
+} /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */
+.highlight .kn {
+  color: #6ab825;
+  font-weight: bold;
+} /* Keyword.Namespace */ /* Keyword.Pseudo */
 .highlight .kr {
   color: #6ab825;
   font-weight: bold;
