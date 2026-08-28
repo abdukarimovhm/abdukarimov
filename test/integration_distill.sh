@@ -4,9 +4,12 @@ set -euo pipefail
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+distill_post="${repo_root}/_posts/2001-01-03-integration-distill.md"
 
 cleanup() {
   rm -rf "${tmp_dir}"
+  rm -f "${distill_post}"
 }
 trap cleanup EXIT
 
@@ -16,7 +19,22 @@ giscus:
   repo_id: R_kgDOExample
   category: Comments
   category_id: DIC_kwDOExample
+external_sources: []
 YAML
+
+cat >"${distill_post}" <<'MARKDOWN'
+---
+layout: distill
+title: Integration Distill Post
+date: 2001-01-03
+permalink: /blog/2021/distill/
+giscus_comments: true
+mermaid:
+  enabled: true
+tikzjax: true
+---
+Temporary post used by integration tests.
+MARKDOWN
 
 bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
 
